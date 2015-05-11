@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background: #f2f5fe url("fondo.gif")  repeat-x 0 0;
+    font: "verdana", color : #1926666;
+}
+
+a {
+    color: #192666;
+}
+
+a:hover {
+    color: #4F6AD7;
+}
+
+p {
+    margin: 1em 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 1em 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 260%;
+    font-family: "georgia", serif;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 180%;
+    font-family: "georgia", serif;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+ul, ol {
+    margin: 1em 0 1em 2em;
+    padding: 0;
+}
+
+#contenedor {
+    width: 770px;
+    margin: 0 auto;
+}
+
+#cabecera {
+
+    width: 770px;
+    height: 100px;
+    background: url("cabecera.jpg");
+
+}
+#cabecera #logo{
+    float: left;
+    line-height: 100px;
+}
+#cabecera #buscador {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+#contenido #principal {
+    float: left;
+    width: 530px;
+}
+
+#contenido #secundario {
+    float: left;
+    width: 200px;
+}
+
+#menu {
+    background: #192666;
+    margin: 0 5px;
+    padding: 10px 0 0 0;
+}
+#menu ul{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+}
+#menu ul li{
+
+}
+#menu ul li a{
+    float: left;
+    background: #253537;
+    font: "verdana", color:#B5C4E3;
+}
+#menu ul li.seleccionado a {
+    background: #FFF;
+    color: #FF9000;
+}
+#pie{
+
+}
